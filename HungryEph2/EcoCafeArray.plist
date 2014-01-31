@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <array>
+    <string>Beverages</string>
+    <string>Bakery</string>
+    <string>Breakfast</string>
+    <string>Snacks</string>
+  </array>
+  <array>
+	<dict>
+		<key>name</key>
+		<string>Small Coffee</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Large Coffee</string>
+		<key>price</key>
+		<real>1.25</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hot Chocolate</string>
+		<key>price</key>
+		<real>1.5</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hot Chai</string>
+		<key>price</key>
+		<real>1.5</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Organic Tea</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Guayaki Yerba Mate Hot Tea</string>
+		<key>price</key>
+		<real>1.25</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Milk</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hershey&apos;s Milk/Milkshake</string>
+		<key>price</key>
+		<real>2.5</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Honest Tea</string>
+		<key>price</key>
+		<real>2.5</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Naked Juice</string>
+		<key>price</key>
+		<real>2.95</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Guayaki Yerba Mate Iced Tea</string>
+		<key>price</key>
+		<real>2.95</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bottled Water</string>
+		<key>price</key>
+		<real>1.25</real>
+	</dict>
+  </array>
+  <array>
+	<dict>
+		<key>name</key>
+		<string>Tea Bread</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Muffin</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Honeybun</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Biscotti</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Scone</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rice Crispy Treat</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+  </array>
+  <array>
+	<dict>
+		<key>name</key>
+		<string>Bagel</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bagel w/ Cream Cheese</string>
+		<key>price</key>
+		<real>1.75</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Fresh Fruit</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Yogurt</string>
+		<key>price</key>
+		<real>1.25</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Breakfast Combo</string>
+		<key>price</key>
+		<real>4.5</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cereal</string>
+		<key>price</key>
+		<real>1.25</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cereal &amp; Milk</string>
+		<key>price</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oatmeal</string>
+		<key>price</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oatmeal &amp; Milk</string>
+		<key>price</key>
+		<real>1.25</real>
+	</dict>
+  </array>
+  <array>
+	<dict>
+		<key>name</key>
+		<string>Odwalla Bar</string>
+		<key>price</key>
+		<real>1.5</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Trail Mix</string>
+		<key>price</key>
+		<real>2.49</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chocolate Bar</string>
+		<key>price</key>
+		<real>2.5</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mixed Fruit and Nut</string>
+		<key>price</key>
+		<real>2.99</real>
+	</dict>
+  </array>
+</array>
+</plist>

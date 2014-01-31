@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Pizza</string>
+		<string>Toppings</string>
+		<string>Other Pizza Options </string>
+		<string>Entrees</string>
+		<string>Drinks</string>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Personal</string>
+			<key>price</key>
+			<real>4</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Large</string>
+			<key>price</key>
+			<string>7</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BBQ Chicken</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Buffalo Chicken</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BLT</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Pepperoni</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sausage</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mushroom</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Onions</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Peppers</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Green Olives</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cheese</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bacon</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Smoked Mozzarella </string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Catamala Olives</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Jalapenos</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Banana Peppers</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Black Olives</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hamburger</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pineapple</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ham</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chicken </string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Roasted Red Peppers</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>White Sauce </string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Red Sauce</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pesto Cream Sauce</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pesto </string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name </key>
+			<string>Barbeque Sauce</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Buffalo Sauce</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Olive Oil</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Trad Crust</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vegan Crust</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Gluten Free Crust</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Wheat Crust</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>No Sauce</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Teriyaki Wings</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BBQ Wings</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hot Wings</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Honey Ginger Wings </string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Garlic Parmesan Wings</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Golden Wings</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bourbon Wings</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Citrus Wings</string>
+			<key>price</key>
+			<string>7</string>
+		</dict>
+		<dict>
+			<key>name </key>
+			<string>Plain Wings</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Guiness</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sam Adams</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bud Light</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name </key>
+			<string>Harpoon</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</array>
+</plist>

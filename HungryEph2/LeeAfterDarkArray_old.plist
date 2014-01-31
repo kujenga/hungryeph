@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Beverages</string>
+		<string>Dessert</string>
+		<string>A La Carte</string>
+		<string>Omlette Fillings </string>
+		<string>Pancake and Waffle Toppings</string>
+		<string>Meal Deals</string>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Coffee</string>
+			<key>price</key>
+			<real>0.99</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hot Tea </string>
+			<key>price</key>
+			<real>1.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hot Chocolate</string>
+			<key>price</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Latte</string>
+			<key>price</key>
+			<real>1.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cappuccino</string>
+			<key>price</key>
+			<real>1.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Espresso</string>
+			<key>price</key>
+			<real>1.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Double Espresso</string>
+			<key>price</key>
+			<real>1.99</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Juice</string>
+			<key>price</key>
+			<real>1.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Milk</string>
+			<key>price</key>
+			<real>1.29</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Soy Milk</string>
+			<key>price</key>
+			<real>1.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Soda</string>
+			<key>price</key>
+			<real>0.89</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Frost</string>
+			<key>price</key>
+			<real>2.3</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Frost With Malt</string>
+			<key>price</key>
+			<real>2.8</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Honey Bun</string>
+			<key>price</key>
+			<real>1.25</real>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Honey Bun A la Mode</string>
+			<key>price</key>
+			<real>2.75</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Small Gelato</string>
+			<key>price</key>
+			<real>1.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Large Gelato</string>
+			<key>price</key>
+			<real>2.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Small Ice Cream</string>
+			<key>price</key>
+			<real>1.29</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Large Ice Cream </string>
+			<key>price</key>
+			<real>2.29</real>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Egg Any Style</string>
+			<key>price</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Create Your Own Omelette </string>
+			<key>price</key>
+			<real>2.69</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cheese Omelet</string>
+			<key>price</key>
+			<real>2.69</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bacon, Ham, Sausage</string>
+			<key>price</key>
+			<real>1.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bagel Supreme</string>
+			<key>price</key>
+			<real>3.75</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Egg N&apos; Bagel </string>
+			<key>price</key>
+			<real>3.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Egg McWilliams</string>
+			<key>price</key>
+			<real>3.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Breakfast Burrito</string>
+			<key>price</key>
+			<real>3.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hash Browns</string>
+			<key>price</key>
+			<real>1.49</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>English Muffin</string>
+			<key>price</key>
+			<real>0.89</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Toasted Bagel </string>
+			<key>price</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>White, Wheat Gluten Free Toast</string>
+			<key>price</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Fresh Fruit Bowl</string>
+			<key>price</key>
+			<real>2.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Peanut Butter </string>
+			<key>price</key>
+			<real>0.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cream Cheese </string>
+			<key>price</key>
+			<real>0.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Preserves</string>
+			<key>price</key>
+			<real>0.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Battenkill Brittle </string>
+			<key>price</key>
+			<real>4</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Belgain Waffle w/ Maple Syrup </string>
+			<key>price</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>3 Pancakes w/ Maple Syrup </string>
+			<key>price</key>
+			<real>3</real>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Italian Sausage </string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Peppers</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Onions</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mushrooms</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chedder Cheese</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Spinach</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tomato</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Salsa</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bacon</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Breakfast Sausage </string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ham</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Chocolate Chips</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Walnuts</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strawberries</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blueberries</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mixed Berries</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Peaches</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Apples</string>
+			<key>price</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Go to Meal Deals</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+	</array>
+</array>
+</plist>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <array>
+    <string>Hot Beverages</string>
+    <string>Cold Beverages</string>
+    <string>Food</string>
+    <string>Extras</string>
+    <string>Combos</string>
+  </array>
+  <array>
+	<dict>
+		<key>name</key>
+		<string>Sm. Coffee</string>
+		<key>price</key>
+		<real>1.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Coffee</string>
+		<key>price</key>
+		<real>1.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Latte</string>
+		<key>price</key>
+		<real>2.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Latte</string>
+		<key>price</key>
+		<integer>3</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Cappuccino</string>
+		<key>price</key>
+		<real>2.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Cappuccino</string>
+		<key>price</key>
+		<real>3.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Americano</string>
+		<key>price</key>
+		<real>1.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Americano</string>
+		<key>price</key>
+		<real>1.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Moooocha</string>
+		<key>price</key>
+		<real>2.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Moooocha</string>
+		<key>price</key>
+		<real>3.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Hot Chocolate</string>
+		<key>price</key>
+		<real>1.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Hot Chocolate</string>
+		<key>price</key>
+		<real>2.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Chai</string>
+		<key>price</key>
+		<real>2.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Chai</string>
+		<key>price</key>
+		<real>3.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Cafe au Lait</string>
+		<key>price</key>
+		<real>1.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Cafe au Lait</string>
+		<key>price</key>
+		<integer>2</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Dirty Chai</string>
+		<key>price</key>
+		<real>3.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Dirty Chai</string>
+		<key>price</key>
+		<real>3.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Shot in the Dark</string>
+		<key>price</key>
+		<real>1.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Shot in the Dark</string>
+		<key>price</key>
+		<integer>2</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Steamed Cow</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Steamed Cow </string>
+		<key>price</key>
+		<integer>2</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sm. Tea</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lg. Tea</string>
+		<key>price</key>
+		<real>1.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+  </array>
+  <array>
+	<dict>
+		<key>name</key>
+		<string>Odwalla Juice</string>
+		<key>price</key>
+		<real>2.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Nantucket Nectar</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Red Bull</string>
+		<key>price</key>
+		<real>2.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Arizona Iced Tea</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gatorade</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Reed&apos;s Ginger Beer</string>
+		<key>price</key>
+		<integer>1</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Arancianata</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Limonata</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Diet Snapple</string>
+		<key>price</key>
+		<real>1.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Milk</string>
+		<key>price</key>
+		<integer>1</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+  </array>
+  <array>
+	<dict>
+		<key>name</key>
+		<string>Bagel</string>
+		<key>price</key>
+		<integer>1</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cream Cheese</string>
+		<key>price</key>
+		<real>0.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Peanut Butter</string>
+		<key>price</key>
+		<real>0.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jelly</string>
+		<key>price</key>
+		<real>0.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Yogurt</string>
+		<key>price</key>
+		<real>1.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oatmeal</string>
+		<key>price</key>
+		<integer>1</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Granola Bar</string>
+		<key>price</key>
+		<real>0.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Odwalla Bar</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Candy</string>
+		<key>price</key>
+		<integer>1</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cereal w/ Milk</string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Biscotti</string>
+		<key>price</key>
+		<integer>1</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Poptarts</string>
+		<key>price</key>
+		<integer>1</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Chapstick</string>
+		<key>price</key>
+		<integer>2</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+</array>
+<array>
+	<dict>
+		<key>name</key>
+		<string>Extra Shot</string>
+		<key>price</key>
+		<real>0.75</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Flavor Shot</string>
+		<key>price</key>
+		<real>0.25</real>
+		<key>combo</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Love</string>
+		<key>price</key>
+		<integer>0</integer>
+		<key>combo</key>
+		<false/>
+	</dict>
+</array>
+<array>
+	<dict>
+		<key>name</key>
+		<string>The Goodrich (w/ Latte)</string>
+		<key>price</key>
+		<real>4.5</real>
+		<key>combo</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>The Goodrich (w/ Chai)</string>
+		<key>price</key>
+		<real>4.5</real>
+		<key>combo</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Quick &amp; Easy</string>
+		<key>price</key>
+		<real>4.5</real>
+		<key>combo</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>CofFree</string>
+		<key>price</key>
+		<real>4.5</real>
+		<key>combo</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>The Usual</string>
+		<key>price</key>
+		<real>4.5</real>
+		<key>combo</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>On-the-Go</string>
+		<key>price</key>
+		<real>4.5</real>
+		<key>combo</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Nutty Nantucket</string>
+		<key>price</key>
+		<real>4.5</real>
+		<key>combo</key>
+		<true/>
+	</dict>
+</array>
+</array>
+</plist>

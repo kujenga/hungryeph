@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Grill Items</string>
+		<string>Deli Items</string>
+		<string>From The Fryer</string>
+		<string>Vegan Items</string>
+		<string>Salad</string>
+		<string>Desserts/Drinks</string>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Hamburger</string>
+			<key>price</key>
+			<real>2.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cheeseburger</string>
+			<key>price</key>
+			<real>2.7</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bacon Burger</string>
+			<key>price</key>
+			<real>3.2</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hot Dog</string>
+			<key>price</key>
+			<real>1.7</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grilled Cheese</string>
+			<key>price</key>
+			<real>2.1</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grilled Cheese w/ Tomato</string>
+			<key>price</key>
+			<real>2.4</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grilled Cheese w/ Bacon</string>
+			<key>price</key>
+			<real>3.2</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grilled Chicken</string>
+			<key>price</key>
+			<real>4.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tuna Melt</string>
+			<key>price</key>
+			<real>3.75</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Moroccan Chicken</string>
+			<key>price</key>
+			<real>4.99</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Falafel</string>
+			<key>price</key>
+			<real>4.99</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chicken Shawarma </string>
+			<key>price</key>
+			<real>4.99</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chicken Patty</string>
+			<key>price</key>
+			<real>4.25</real>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Pastrami Reuben</string>
+			<key>price</key>
+			<real>4.99</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deli Sandwich</string>
+			<key>price</key>
+			<real>4.1</real>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>French Fries</string>
+			<key>price</key>
+			<real>1.75</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PB&amp;J Fries</string>
+			<key>price</key>
+			<real>2.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Fried Green Beans</string>
+			<key>price</key>
+			<real>2.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Onion Rings</string>
+			<key>price</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mozzarella Sticks</string>
+			<key>price</key>
+			<real>3.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sweet Potato Fries</string>
+			<key>price</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chicken Fingers</string>
+			<key>price</key>
+			<real>4.99</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Buffalo Fries</string>
+			<key>price</key>
+			<real>2.25</real>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Grilled Cheese</string>
+			<key>price</key>
+			<real>2.1</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grilled Cheese w/ Tomato</string>
+			<key>price</key>
+			<real>2.4</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Garden Burger</string>
+			<key>price</key>
+			<real>4.29</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Quesadilla</string>
+			<key>price</key>
+			<real>3.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Veggie Burrito</string>
+			<key>price</key>
+			<real>4.29</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Veggie Pocket</string>
+			<key>price</key>
+			<real>2.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Baba Ganoush w/ Pita Chips</string>
+			<key>price</key>
+			<real>3.75</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pita Chips w/ Hummus</string>
+			<key>price</key>
+			<real>3.75</real>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Side Salad</string>
+			<key>price</key>
+			<real>1.75</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Crispy Seitan Salad</string>
+			<key>price</key>
+			<real>4.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Seared Tofu Salad</string>
+			<key>price</key>
+			<real>4.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chicken Caesar Salad</string>
+			<key>price</key>
+			<real>4.25</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dinner Salad</string>
+			<key>price</key>
+			<real>3.2</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grilled Honeybun</string>
+			<key>price</key>
+			<real>1.25</real>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Small Gelato</string>
+			<key>price</key>
+			<real>1.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Large Gelato</string>
+			<key>price</key>
+			<real>2.5</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hot Fudge Sundae</string>
+			<key>price</key>
+			<real>2.95</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dish of Ice Cream</string>
+			<key>price</key>
+			<real>1.3</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Frost</string>
+			<key>price</key>
+			<real>2.3</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Smoothie</string>
+			<key>price</key>
+			<real>2.99</real>
+		</dict>
+	</array>
+</array>
+</plist>
