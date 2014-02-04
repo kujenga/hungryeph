@@ -19,9 +19,17 @@
     IBOutlet UIButton *goodrich;
     IBOutlet UIButton *lee;
     IBOutlet UIButton *etgrill;
-    IBOutlet UIButton *leeMealDeal;
+    //IBOutlet UIButton *leeMealDeal;
     
-    IBOutlet UISwitch *equivalency;
+    //heights of the buttons
+    
+    IBOutlet NSLayoutConstraint *whitmanHeight;
+    IBOutlet NSLayoutConstraint *ecoHeight;
+    IBOutlet NSLayoutConstraint *goodrichHeight;
+    IBOutlet NSLayoutConstraint *etHeight;
+    IBOutlet NSLayoutConstraint *leeHeight;
+    
+    IBOutlet UISegmentedControl *equivalencyControl;
 }
 
 

@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		382313CB18551B7A00290F36 /* ToOrderCut.png in Resources */ = {isa = PBXBuildFile; fileRef = 382313CA18551B7A00290F36 /* ToOrderCut.png */; };
-		382313CD18551DA000290F36 /* ToOrderCut test.png in Resources */ = {isa = PBXBuildFile; fileRef = 382313CC18551DA000290F36 /* ToOrderCut test.png */; };
-		382313D51855226F00290F36 /* TABBARinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 382313D41855226F00290F36 /* TABBARinfo.png */; };
-		38868F431881A11800DDFF95 /* ToOrderToUse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38868F421881A11800DDFF95 /* ToOrderToUse@2x.png */; };
-		38868F451881A21800DDFF95 /* TABBARmenus.png in Resources */ = {isa = PBXBuildFile; fileRef = 38868F441881A21800DDFF95 /* TABBARmenus.png */; };
-		38868F471881A38000DDFF95 /* TABBARcontact.png in Resources */ = {isa = PBXBuildFile; fileRef = 38868F461881A38000DDFF95 /* TABBARcontact.png */; };
 		38AE06251768BD4D008EA3C9 /* 82GrillArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38AE06241768BD4D008EA3C9 /* 82GrillArray.plist */; };
 		86049B1B1816F16700268F00 /* Hugryeph1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86049B1A1816F16700268F00 /* Hugryeph1136@2x.png */; };
 		861A44521766D6440054E353 /* WebLinksFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 861A44511766D6440054E353 /* WebLinksFinder.m */; };
@@ -32,7 +26,7 @@
 		862D2FFD1751C4ED0036FBE7 /* GoodrichArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 862D2FFA1751C4ED0036FBE7 /* GoodrichArray.plist */; };
 		862D2FFE1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist in Resources */ = {isa = PBXBuildFile; fileRef = 862D2FFB1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist */; };
 		862D30001751C7AB0036FBE7 /* CheckoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862D2FFF1751C7AB0036FBE7 /* CheckoutView.xib */; };
-		864CC491189C42A9005C4AE0 /* TABBARcontact@2x copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 864CC48D189C42A9005C4AE0 /* TABBARcontact@2x copy.png */; };
+		864CC491189C42A9005C4AE0 /* TABBARcontact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864CC48D189C42A9005C4AE0 /* TABBARcontact@2x.png */; };
 		864CC492189C42A9005C4AE0 /* TABBARinfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864CC48E189C42A9005C4AE0 /* TABBARinfo@2x.png */; };
 		864CC493189C42A9005C4AE0 /* TABBARmenus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864CC48F189C42A9005C4AE0 /* TABBARmenus@2x.png */; };
 		864CC494189C42A9005C4AE0 /* TABBARtoOrder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864CC490189C42A9005C4AE0 /* TABBARtoOrder@2x.png */; };
@@ -68,26 +62,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		382313CA18551B7A00290F36 /* ToOrderCut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToOrderCut.png; sourceTree = "<group>"; };
-		382313CC18551DA000290F36 /* ToOrderCut test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToOrderCut test.png"; sourceTree = "<group>"; };
-		382313D41855226F00290F36 /* TABBARinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TABBARinfo.png; sourceTree = "<group>"; };
-		38868F421881A11800DDFF95 /* ToOrderToUse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ToOrderToUse@2x.png"; sourceTree = "<group>"; };
-		38868F441881A21800DDFF95 /* TABBARmenus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TABBARmenus.png; sourceTree = "<group>"; };
-		38868F461881A38000DDFF95 /* TABBARcontact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TABBARcontact.png; sourceTree = "<group>"; };
 		389FF6991814BF3B0041A161 /* launch640width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch640width.png; sourceTree = "<group>"; };
 		389FF69A1816F00F0041A161 /* HungryEph960@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HungryEph960@2x.png"; sourceTree = "<group>"; };
 		38AE06241768BD4D008EA3C9 /* 82GrillArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 82GrillArray.plist; sourceTree = "<group>"; };
 		86049B1A1816F16700268F00 /* Hugryeph1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hugryeph1136@2x.png"; sourceTree = "<group>"; };
 		861A44501766D6440054E353 /* WebLinksFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebLinksFinder.h; sourceTree = "<group>"; };
 		861A44511766D6440054E353 /* WebLinksFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebLinksFinder.m; sourceTree = "<group>"; };
-		862D2FA41751A7160036FBE7 /* HungryEph2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungryEph2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		862D2FA41751A7160036FBE7 /* hungryeph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hungryeph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862D2FA71751A7160036FBE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		862D2FA91751A7160036FBE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		862D2FAB1751A7160036FBE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		862D2FAF1751A7160036FBE7 /* HungryEph2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HungryEph2-Info.plist"; sourceTree = "<group>"; };
+		862D2FAF1751A7160036FBE7 /* hungryeph-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hungryeph-Info.plist"; sourceTree = "<group>"; };
 		862D2FB11751A7160036FBE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		862D2FB31751A7160036FBE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		862D2FB51751A7160036FBE7 /* HungryEph2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HungryEph2-Prefix.pch"; sourceTree = "<group>"; };
+		862D2FB51751A7160036FBE7 /* hungryeph-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hungryeph-Prefix.pch"; sourceTree = "<group>"; };
 		862D2FB61751A7160036FBE7 /* HungryEphAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HungryEphAppDelegate.h; sourceTree = "<group>"; };
 		862D2FB71751A7160036FBE7 /* HungryEphAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HungryEphAppDelegate.m; sourceTree = "<group>"; };
 		862D2FB91751A7160036FBE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -107,7 +95,7 @@
 		862D2FFA1751C4ED0036FBE7 /* GoodrichArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodrichArray.plist; sourceTree = "<group>"; };
 		862D2FFB1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LeeAfterDarkArray_old.plist; sourceTree = "<group>"; };
 		862D2FFF1751C7AB0036FBE7 /* CheckoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckoutView.xib; sourceTree = "<group>"; };
-		864CC48D189C42A9005C4AE0 /* TABBARcontact@2x copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TABBARcontact@2x copy.png"; path = "../../Images/TABBARcontact@2x copy.png"; sourceTree = "<group>"; };
+		864CC48D189C42A9005C4AE0 /* TABBARcontact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TABBARcontact@2x.png"; path = "../../Images/TABBARcontact@2x.png"; sourceTree = "<group>"; };
 		864CC48E189C42A9005C4AE0 /* TABBARinfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TABBARinfo@2x.png"; path = "../../Images/TABBARinfo@2x.png"; sourceTree = "<group>"; };
 		864CC48F189C42A9005C4AE0 /* TABBARmenus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TABBARmenus@2x.png"; path = "../../Images/TABBARmenus@2x.png"; sourceTree = "<group>"; };
 		864CC490189C42A9005C4AE0 /* TABBARtoOrder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TABBARtoOrder@2x.png"; path = "../../Images/TABBARtoOrder@2x.png"; sourceTree = "<group>"; };
@@ -170,16 +158,10 @@
 		38C55CE61840F23000DEF5DD /* Tab Bar files  */ = {
 			isa = PBXGroup;
 			children = (
-				38868F441881A21800DDFF95 /* TABBARmenus.png */,
-				382313D41855226F00290F36 /* TABBARinfo.png */,
-				382313CA18551B7A00290F36 /* ToOrderCut.png */,
-				38868F461881A38000DDFF95 /* TABBARcontact.png */,
-				864CC48D189C42A9005C4AE0 /* TABBARcontact@2x copy.png */,
+				864CC48D189C42A9005C4AE0 /* TABBARcontact@2x.png */,
 				864CC48E189C42A9005C4AE0 /* TABBARinfo@2x.png */,
 				864CC48F189C42A9005C4AE0 /* TABBARmenus@2x.png */,
 				864CC490189C42A9005C4AE0 /* TABBARtoOrder@2x.png */,
-				382313CC18551DA000290F36 /* ToOrderCut test.png */,
-				38868F421881A11800DDFF95 /* ToOrderToUse@2x.png */,
 			);
 			name = "Tab Bar files ";
 			path = HungryEph2;
@@ -194,7 +176,6 @@
 				862D2FFB1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist */,
 				86864E0317F607F500C74C8E /* LeeAfterDarkArray.plist */,
 				38AE06241768BD4D008EA3C9 /* 82GrillArray.plist */,
-				862D2FAF1751A7160036FBE7 /* HungryEph2-Info.plist */,
 			);
 			name = Menus;
 			sourceTree = "<group>";
@@ -211,7 +192,7 @@
 		862D2FA51751A7160036FBE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				862D2FA41751A7160036FBE7 /* HungryEph2.app */,
+				862D2FA41751A7160036FBE7 /* hungryeph.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,7 +247,8 @@
 				86E45346187A074B0027C81E /* LocationButtonBackground.bmp */,
 				862D2FB01751A7160036FBE7 /* InfoPlist.strings */,
 				862D2FB31751A7160036FBE7 /* main.m */,
-				862D2FB51751A7160036FBE7 /* HungryEph2-Prefix.pch */,
+				862D2FAF1751A7160036FBE7 /* hungryeph-Info.plist */,
+				862D2FB51751A7160036FBE7 /* hungryeph-Prefix.pch */,
 				862D2FB91751A7160036FBE7 /* Default.png */,
 				862D2FBB1751A7160036FBE7 /* Default@2x.png */,
 				862D2FBD1751A7160036FBE7 /* Default-568h@2x.png */,
@@ -340,9 +322,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		862D2FA31751A7160036FBE7 /* HungryEph2 */ = {
+		862D2FA31751A7160036FBE7 /* hungryeph */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 862D2FD21751A7160036FBE7 /* Build configuration list for PBXNativeTarget "HungryEph2" */;
+			buildConfigurationList = 862D2FD21751A7160036FBE7 /* Build configuration list for PBXNativeTarget "hungryeph" */;
 			buildPhases = (
 				862D2FA01751A7160036FBE7 /* Sources */,
 				862D2FA11751A7160036FBE7 /* Frameworks */,
@@ -352,9 +334,9 @@
 			);
 			dependencies = (
 			);
-			name = HungryEph2;
+			name = hungryeph;
 			productName = HungryEph2;
-			productReference = 862D2FA41751A7160036FBE7 /* HungryEph2.app */;
+			productReference = 862D2FA41751A7160036FBE7 /* hungryeph.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -368,11 +350,11 @@
 				ORGANIZATIONNAME = "Williams College";
 				TargetAttributes = {
 					862D2FA31751A7160036FBE7 = {
-						DevelopmentTeam = N8HU77EQW6;
+						DevelopmentTeam = W5Y22ZPU7H;
 					};
 				};
 			};
-			buildConfigurationList = 862D2F9F1751A7160036FBE7 /* Build configuration list for PBXProject "HungryEph2" */;
+			buildConfigurationList = 862D2F9F1751A7160036FBE7 /* Build configuration list for PBXProject "hungryeph" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -384,7 +366,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				862D2FA31751A7160036FBE7 /* HungryEph2 */,
+				862D2FA31751A7160036FBE7 /* hungryeph */,
 			);
 		};
 /* End PBXProject section */
@@ -397,17 +379,12 @@
 				86E45366187A0C950027C81E /* Whitmans2.jpg in Resources */,
 				86E4535B187A0C950027C81E /* 82Grill.jpg in Resources */,
 				86D8007D1880E6AD00E7B1B2 /* Icon_58.png in Resources */,
-				864CC491189C42A9005C4AE0 /* TABBARcontact@2x copy.png in Resources */,
+				864CC491189C42A9005C4AE0 /* TABBARcontact@2x.png in Resources */,
 				86864E0417F607F500C74C8E /* LeeAfterDarkArray.plist in Resources */,
 				86E45360187A0C950027C81E /* EcoCafe2.jpg in Resources */,
 				86E4535F187A0C950027C81E /* EcoCafe.jpg in Resources */,
 				86D8007B1880E63C00E7B1B2 /* Icon_80.png in Resources */,
-				38868F431881A11800DDFF95 /* ToOrderToUse@2x.png in Resources */,
-				382313D51855226F00290F36 /* TABBARinfo.png in Resources */,
-				38868F451881A21800DDFF95 /* TABBARmenus.png in Resources */,
 				864CC493189C42A9005C4AE0 /* TABBARmenus@2x.png in Resources */,
-				382313CB18551B7A00290F36 /* ToOrderCut.png in Resources */,
-				382313CD18551DA000290F36 /* ToOrderCut test.png in Resources */,
 				864CC492189C42A9005C4AE0 /* TABBARinfo@2x.png in Resources */,
 				86E45364187A0C950027C81E /* LeeSnackBar2.jpg in Resources */,
 				86E4535E187A0C950027C81E /* Driscoll2.jpg in Resources */,
@@ -418,7 +395,6 @@
 				862D2FC11751A7160036FBE7 /* MainStoryboard.storyboard in Resources */,
 				86E4535C187A0C950027C81E /* 82Grill2.jpg in Resources */,
 				86D800761880E4F000E7B1B2 /* Icon_120@2x.png in Resources */,
-				38868F471881A38000DDFF95 /* TABBARcontact.png in Resources */,
 				862D2FF41751AD640036FBE7 /* WhitmansArray.plist in Resources */,
 				86E45365187A0C950027C81E /* Whitmans.jpg in Resources */,
 				862D2FFC1751C4ED0036FBE7 /* EcoCafeArray.plist in Resources */,
@@ -551,11 +527,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HungryEph2/HungryEph2-Prefix.pch";
+				GCC_PREFIX_HEADER = "HungryEph2/hungryeph-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
-				INFOPLIST_FILE = "HungryEph2/HungryEph2-Info.plist";
+				INFOPLIST_FILE = "HungryEph2/hungryeph-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = HungryEph2;
+				PRODUCT_NAME = hungryeph;
 				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
@@ -571,11 +547,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HungryEph2/HungryEph2-Prefix.pch";
+				GCC_PREFIX_HEADER = "HungryEph2/hungryeph-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
-				INFOPLIST_FILE = "HungryEph2/HungryEph2-Info.plist";
+				INFOPLIST_FILE = "HungryEph2/hungryeph-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = HungryEph2;
+				PRODUCT_NAME = hungryeph;
 				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
@@ -585,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		862D2F9F1751A7160036FBE7 /* Build configuration list for PBXProject "HungryEph2" */ = {
+		862D2F9F1751A7160036FBE7 /* Build configuration list for PBXProject "hungryeph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				862D2FD01751A7160036FBE7 /* Debug */,
@@ -594,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		862D2FD21751A7160036FBE7 /* Build configuration list for PBXNativeTarget "HungryEph2" */ = {
+		862D2FD21751A7160036FBE7 /* Build configuration list for PBXNativeTarget "hungryeph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				862D2FD31751A7160036FBE7 /* Debug */,

@@ -24,11 +24,10 @@
     [super viewDidLoad];
 	UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonItemStyleBordered target:self action:@selector(cancelOrder)];
 	self.navigationItem.leftBarButtonItem = cancelButton;
-
 }
 
 - (void) cancelOrder{
-	[parent updateTotalPrice: totalPrice cart:cart];
+	[parent updateTotalPrice: totalPrice cart:cart presentSelf:NO];
 }
 
 
@@ -87,9 +86,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
-	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
-	// [self.navigationController pushViewController:anotherViewController];
-	// [anotherViewController release];
 	[tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
@@ -114,7 +110,7 @@
 	while([cart count] > 0) {
 		[cart removeLastObject];
 	}
-	[parent updateTotalPrice: 0 cart:cart];
+	[parent updateTotalPrice: 0 cart:cart presentSelf:YES];
 }
 
 

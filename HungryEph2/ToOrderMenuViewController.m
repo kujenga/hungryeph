@@ -32,7 +32,7 @@
 
 @implementation ToOrderMenuViewController
 
--(id) initWithName:(NSString *)name andPoints: (BOOL)limit{
+-(id) initWithName:(NSString *)name andPoints: (double)limit{
     self.location = [[name copy] substringToIndex:([name length]-5)];
     NSLog(@"%@",self.location);
     if (!(self = [super initWithNibName:@"toOrder" bundle:nil])) return nil;
@@ -51,10 +51,10 @@
         menu = [flexibleMenu copy];
         cart = [NSMutableArray array];
         //Imposes a limit if the user is using points
-		if(limit){
-            limitPrice = 7;
+		if(limit) {
+            limitPrice = limit + 0.01;
 		}
-		else{
+		else {
 			limitPrice = 64000;
 		}
         //NSLog(@"%@",flexibleMenu);
@@ -74,10 +74,11 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 	NSArray *section = [flexibleMenu objectAtIndex:indexPath.section];
-	NSDictionary *item = [section objectAtIndex:indexPath.row];
+	// ppinter to the specific item that has been sleected by the user
+    NSDictionary *item = [section objectAtIndex:indexPath.row];
 
     //deal with combos for individual locations here, or simply adds the item to the cart
     if ([self.location isEqualToString:@"EcoCafe"]) {
@@ -273,7 +274,7 @@
     UITableViewCell *cell;
     if ( [item objectForKey:@"options"] != nil ) {
         //creates or reuses a cell for combos or meal deals
-        static NSString *CellIdentifier = @"Cell";
+        static NSString *CellIdentifier = @"mdCell";
         cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         if (cell == nil) {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
@@ -291,6 +292,8 @@
         cell.detailTextLabel.text = [NSString stringWithFormat: @"%.2f",[[item objectForKey:@"price"] doubleValue]];
     }
 	
+    //NSLog([item objectForKey:@"name"]);
+    
 	cell.textLabel.text = [item objectForKey:@"name"];
 	cell.textLabel.minimumScaleFactor = 8;
 	cell.textLabel.adjustsFontSizeToFitWidth = YES;
@@ -314,21 +317,19 @@
 }
 
 -(void) presentCheckout{
-    /*if ( self.navigationController.topViewController != self ) {
-        [self.navigationController dismissViewControllerAnimated:NO completion:NULL];
-        //[self presentViewController:self animated:NO completion:NULL];
-    }*/
 	CheckoutViewController *checkoutController = [[CheckoutViewController alloc]initWithTotalPrice:totalPrice cart:cart parent:self];
-	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:checkoutController];
-	[self presentViewController:navController animated:YES completion:NULL];
+	[self.navigationController pushViewController:checkoutController animated:NO];
 }
 
--(void) updateTotalPrice:(double)cost cart:(NSMutableArray *)stuff{
+-(void) updateTotalPrice:(double)cost cart:(NSMutableArray *)stuff presentSelf:(BOOL)present {
 	totalPrice = cost;
 	cart = stuff;
-	[self dismissViewControllerAnimated:YES completion:NULL];
-	self.title = [NSString stringWithFormat:@"Total: $%.2f", totalPrice];
-	
+    if (present) {
+        [self.navigationController popToViewController:self animated:YES];
+	} else {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+    self.title = [NSString stringWithFormat:@"Total: $%.2f", totalPrice];
 	[flexibleMenu removeAllObjects];
 	int sectionNum = 0;
 	for(NSArray *section in menu){

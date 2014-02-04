@@ -55,7 +55,8 @@
 
 - (void) goCheckout {
     if (parent) {
-        [self.navigationController dismissViewControllerAnimated:YES completion:NULL];
+        
+        //[self.navigationController popViewControllerAnimated:YES];
         [parent presentCheckout];
         //[self.navigationController pushViewController:parent animated:YES];
     }
@@ -117,9 +118,13 @@
     return cell;
 }
 
-/*
 #pragma mark - Navigation
 
+- (void) popAfterCheckout {
+    [self.navigationController popToViewController:parent animated:NO];
+}
+
+/*
 // In a story board-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

@@ -10,48 +10,23 @@
             <objects>
                 <viewController id="fRF-TK-1zG" customClass="ToOrderViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xtK-QZ-Dd6"/>
-                        <viewControllerLayoutGuide type="bottom" id="xzw-bW-zsd"/>
+                        <viewControllerLayoutGuide type="top" id="xZk-UV-dB3"/>
+                        <viewControllerLayoutGuide type="bottom" id="ib9-M2-lf8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GRo-Hh-3Cf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6HV-ZW-9xf">
-                                <rect key="frame" x="-5" y="0.0" width="325" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="124" translatesAutoresizingMaskIntoConstraints="NO" id="tpc-3U-FbZ">
-                                <rect key="frame" x="47" y="408" width="124" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="124" id="VtL-yf-KJk"/>
-                                </constraints>
-                                <string key="text">Equivalency
-Payment</string>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C7Z-71-6ni">
-                                <rect key="frame" x="217" y="420" width="51" height="31"/>
-                            </switch>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I64-zX-eT7">
-                                <rect key="frame" x="106" y="158" width="108" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBG-Rs-bDW">
+                                <rect key="frame" x="0.0" y="74" width="320" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="108" id="e0k-Ma-6sL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
-                                <state key="normal" title="Eco Café"/>
-                                <connections>
-                                    <action selector="go:" destination="fRF-TK-1zG" eventType="touchUpInside" id="f3i-c1-VuH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBG-Rs-bDW">
-                                <rect key="frame" x="102" y="101" width="117" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="39" id="kEJ-6g-4RV"/>
+                                    <constraint firstAttribute="width" constant="320" id="DLo-hi-OBU"/>
+                                    <constraint firstAttribute="height" constant="75" id="GNy-3G-Tzt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
                                 <state key="normal" title="Whitmans">
@@ -61,26 +36,12 @@ Payment</string>
                                     <action selector="go:" destination="fRF-TK-1zG" eventType="touchUpInside" id="Wvm-UB-cFL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFu-LL-MW4">
-                                <rect key="frame" x="102" y="210" width="117" height="47"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riU-GX-L6b">
+                                <rect key="frame" x="0.0" y="149" width="320" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="Dvu-y2-Zfe"/>
-                                    <constraint firstAttribute="width" constant="117" id="dCA-hG-9Kq"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
-                                <state key="normal" title="Goodrich">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="go:" destination="fRF-TK-1zG" eventType="touchUpInside" id="1EL-cl-w8T"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riU-GX-L6b">
-                                <rect key="frame" x="74" y="319" width="172" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="oM5-Fx-Nya"/>
+                                    <constraint firstAttribute="height" constant="75" id="Qqq-az-cZX"/>
+                                    <constraint firstAttribute="width" constant="320" id="eCz-02-2i0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
                                 <state key="normal" title="Lee Snack Bar">
@@ -90,11 +51,12 @@ Payment</string>
                                     <action selector="go:" destination="fRF-TK-1zG" eventType="touchUpInside" id="icI-VI-TNR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Uw-sE-bkd">
-                                <rect key="frame" x="96" y="273" width="128" height="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Uw-sE-bkd">
+                                <rect key="frame" x="0.0" y="224" width="320" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="1Kh-Bp-uLg"/>
+                                    <constraint firstAttribute="width" constant="320" id="enr-Bx-o3f"/>
+                                    <constraint firstAttribute="height" constant="75" id="nKw-c3-2ym"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
                                 <state key="normal" title="82 Grill">
@@ -104,31 +66,90 @@ Payment</string>
                                     <action selector="go:" destination="fRF-TK-1zG" eventType="touchUpInside" id="mli-gZ-JPY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFu-LL-MW4">
+                                <rect key="frame" x="0.0" y="299" width="320" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="Xr8-aJ-dpk"/>
+                                    <constraint firstAttribute="width" constant="320" id="u3Y-a3-ygZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
+                                <state key="normal" title="Goodrich">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="go:" destination="fRF-TK-1zG" eventType="touchUpInside" id="1EL-cl-w8T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I64-zX-eT7">
+                                <rect key="frame" x="0.0" y="374" width="320" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="O7K-jm-0Sw"/>
+                                    <constraint firstAttribute="height" constant="75" id="PVL-vk-xt4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
+                                <state key="normal" title="Eco Café"/>
+                                <connections>
+                                    <action selector="go:" destination="fRF-TK-1zG" eventType="touchUpInside" id="f3i-c1-VuH"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qUd-qy-fLM">
+                                <rect key="frame" x="60" y="454" width="200" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="6dI-f8-bbd"/>
+                                    <constraint firstAttribute="width" constant="200" id="fPY-2M-aLP"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Equivalency"/>
+                                    <segment title="Cash"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="UFu-LL-MW4" firstAttribute="centerX" secondItem="yBG-Rs-bDW" secondAttribute="centerX" id="2U6-sV-5QO"/>
+                            <constraint firstAttribute="centerX" secondItem="yBG-Rs-bDW" secondAttribute="centerX" id="545-5x-kGb"/>
+                            <constraint firstItem="UFu-LL-MW4" firstAttribute="centerX" secondItem="I64-zX-eT7" secondAttribute="centerX" id="Cqo-WQ-t07"/>
+                            <constraint firstItem="8Uw-sE-bkd" firstAttribute="top" secondItem="riU-GX-L6b" secondAttribute="bottom" id="PuN-DN-QSL"/>
+                            <constraint firstItem="UFu-LL-MW4" firstAttribute="top" secondItem="8Uw-sE-bkd" secondAttribute="bottom" id="Ymw-ai-aSo"/>
+                            <constraint firstItem="yBG-Rs-bDW" firstAttribute="top" secondItem="xZk-UV-dB3" secondAttribute="bottom" constant="10" id="avq-I2-5Yv"/>
+                            <constraint firstItem="UFu-LL-MW4" firstAttribute="centerX" secondItem="riU-GX-L6b" secondAttribute="centerX" id="dcw-CL-Nwo"/>
+                            <constraint firstItem="I64-zX-eT7" firstAttribute="top" secondItem="UFu-LL-MW4" secondAttribute="bottom" id="g9I-At-ouN"/>
+                            <constraint firstItem="UFu-LL-MW4" firstAttribute="centerX" secondItem="8Uw-sE-bkd" secondAttribute="centerX" id="gir-Rg-eez"/>
+                            <constraint firstAttribute="centerX" secondItem="qUd-qy-fLM" secondAttribute="centerX" id="mdX-dz-Vfu"/>
+                            <constraint firstItem="ib9-M2-lf8" firstAttribute="top" secondItem="qUd-qy-fLM" secondAttribute="bottom" constant="30" id="mxG-Ue-p5L"/>
+                            <constraint firstItem="riU-GX-L6b" firstAttribute="top" secondItem="yBG-Rs-bDW" secondAttribute="bottom" id="pMh-Oo-kUb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wZZ-8C-wT1"/>
                     <connections>
                         <outlet property="background" destination="6HV-ZW-9xf" id="72j-Ry-VBQ"/>
                         <outlet property="eco" destination="I64-zX-eT7" id="eHC-8m-XdB"/>
-                        <outlet property="equivalency" destination="C7Z-71-6ni" id="Tvy-gv-RiL"/>
+                        <outlet property="ecoHeight" destination="PVL-vk-xt4" id="xHj-8e-Ngo"/>
+                        <outlet property="equivalencyControl" destination="qUd-qy-fLM" id="I9g-NI-yYa"/>
+                        <outlet property="etHeight" destination="nKw-c3-2ym" id="QUl-sk-6So"/>
                         <outlet property="etgrill" destination="8Uw-sE-bkd" id="a6R-Gx-DvV"/>
                         <outlet property="goodrich" destination="UFu-LL-MW4" id="pkn-Zi-jsD"/>
+                        <outlet property="goodrichHeight" destination="Xr8-aJ-dpk" id="2Ki-Se-IBs"/>
                         <outlet property="lee" destination="riU-GX-L6b" id="Yje-cn-5lT"/>
+                        <outlet property="leeHeight" destination="Qqq-az-cZX" id="q6Z-PC-e3C"/>
                         <outlet property="nav" destination="wZZ-8C-wT1" id="wX6-lp-TU1"/>
+                        <outlet property="whitmanHeight" destination="GNy-3G-Tzt" id="Dss-wi-SGm"/>
                         <outlet property="whitmans" destination="yBG-Rs-bDW" id="UgI-22-6x7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nM7-Di-e9t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1152" y="-561"/>
+            <point key="canvasLocation" x="1154" y="-561"/>
         </scene>
         <!--Navigation Controller - To Order-->
         <scene sceneID="ZaE-nM-g6j">
             <objects>
                 <navigationController definesPresentationContext="YES" id="arg-f9-DGq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="To Order" image="ToOrderToUse@2x.png" id="kfK-Zh-8dz"/>
+                    <tabBarItem key="tabBarItem" title="To Order" image="TABBARtoOrder@2x.png" id="kfK-Zh-8dz"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fyS-nV-fWu">
                         <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
@@ -147,8 +168,8 @@ Payment</string>
             <objects>
                 <viewController id="9X4-sh-kRw" customClass="CBORDWebAppViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8tz-TL-eJs"/>
-                        <viewControllerLayoutGuide type="bottom" id="Jd6-U1-aQu"/>
+                        <viewControllerLayoutGuide type="top" id="kY4-1b-zSl"/>
+                        <viewControllerLayoutGuide type="bottom" id="738-1S-jG7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QeD-Yh-JrJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -169,20 +190,20 @@ Payment</string>
             <objects>
                 <viewController id="VcS-hu-1jQ" customClass="DailyMenusViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PjR-eQ-0HG"/>
-                        <viewControllerLayoutGuide type="bottom" id="DEx-co-Qwp"/>
+                        <viewControllerLayoutGuide type="top" id="lum-ip-jF4"/>
+                        <viewControllerLayoutGuide type="bottom" id="mYG-jh-n6A"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="35g-jN-yS8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Daily Menus" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6s-mI-PF6">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Daily Menus" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6s-mI-PF6">
                                 <rect key="frame" x="63" y="91" width="195" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idh-YQ-zrx">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idh-YQ-zrx">
                                 <rect key="frame" x="118" y="144" width="84" height="30"/>
                                 <state key="normal" title="Daily Menus">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -191,7 +212,7 @@ Payment</string>
                                     <action selector="go:" destination="VcS-hu-1jQ" eventType="touchUpInside" id="fFq-sj-prF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxp-ex-2Rx">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxp-ex-2Rx">
                                 <rect key="frame" x="110" y="192" width="101" height="30"/>
                                 <state key="normal" title="Update Menus">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -200,23 +221,12 @@ Payment</string>
                                     <action selector="go:" destination="VcS-hu-1jQ" eventType="touchUpInside" id="H1L-gZ-hoV"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfd-Jg-SBk">
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lfd-Jg-SBk">
                                 <rect key="frame" x="-80" y="357" width="480" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="idh-YQ-zrx" firstAttribute="top" secondItem="35g-jN-yS8" secondAttribute="top" constant="144" id="2Jj-OI-vZi"/>
-                            <constraint firstItem="K6s-mI-PF6" firstAttribute="top" secondItem="PjR-eQ-0HG" secondAttribute="bottom" constant="71" id="7xr-pC-M3Y"/>
-                            <constraint firstItem="lfd-Jg-SBk" firstAttribute="centerX" secondItem="35g-jN-yS8" secondAttribute="centerX" id="91a-7K-6Fs"/>
-                            <constraint firstItem="lfd-Jg-SBk" firstAttribute="centerX" secondItem="idh-YQ-zrx" secondAttribute="centerX" id="IBA-UQ-R9y"/>
-                            <constraint firstItem="idh-YQ-zrx" firstAttribute="top" secondItem="K6s-mI-PF6" secondAttribute="bottom" constant="17" id="Wjp-h6-t7C"/>
-                            <constraint firstItem="K6s-mI-PF6" firstAttribute="centerX" secondItem="idh-YQ-zrx" secondAttribute="centerX" id="a0o-sw-EY9"/>
-                            <constraint firstItem="Hxp-ex-2Rx" firstAttribute="top" secondItem="idh-YQ-zrx" secondAttribute="bottom" constant="18" id="caP-tl-fIu"/>
-                            <constraint firstItem="lfd-Jg-SBk" firstAttribute="centerX" secondItem="Hxp-ex-2Rx" secondAttribute="centerX" id="fxa-gs-GF5"/>
-                            <constraint firstItem="DEx-co-Qwp" firstAttribute="top" secondItem="lfd-Jg-SBk" secondAttribute="bottom" constant="49" id="p0P-r9-hW2"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pJA-6h-KKg"/>
                     <connections>
@@ -234,8 +244,8 @@ Payment</string>
             <objects>
                 <viewController id="PYa-FK-2d9" customClass="TempDailyMenusViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WY3-Pg-rhF"/>
-                        <viewControllerLayoutGuide type="bottom" id="TIB-e9-Fh0"/>
+                        <viewControllerLayoutGuide type="top" id="Dnf-sz-hd4"/>
+                        <viewControllerLayoutGuide type="bottom" id="oC3-69-ZzV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9bD-SZ-EA2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -253,7 +263,7 @@ Payment</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Daily Menus" image="TABBARmenus.png" id="FDQ-zD-dpC"/>
+                    <tabBarItem key="tabBarItem" title="Daily Menus" image="TABBARmenus@2x.png" id="FDQ-zD-dpC"/>
                     <navigationItem key="navigationItem" id="JQ9-B3-0oE"/>
                     <connections>
                         <outlet property="activityIndicator" destination="akM-Wq-439" id="44g-0N-fYJ"/>
@@ -268,7 +278,7 @@ Payment</string>
         <scene sceneID="eJJ-49-Hwk">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Hz0-69-AH2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Contact" image="TABBARcontact.png" id="Ew8-wf-gEp"/>
+                    <tabBarItem key="tabBarItem" title="Contact" image="TABBARcontact@2x.png" id="Ew8-wf-gEp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="N4Q-CQ-JUd">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -285,8 +295,8 @@ Payment</string>
             <objects>
                 <viewController id="NH1-T9-Ujk" customClass="ContactTabViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JaC-5c-r4A"/>
-                        <viewControllerLayoutGuide type="bottom" id="OLE-Ze-Y9P"/>
+                        <viewControllerLayoutGuide type="top" id="rOV-Su-NRe"/>
+                        <viewControllerLayoutGuide type="bottom" id="g98-mn-Q73"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Fmn-3Z-Ekz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -333,8 +343,8 @@ Payment</string>
             <objects>
                 <viewController id="RC3-BT-0AV" customClass="InfoTabViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BPt-vi-gCL"/>
-                        <viewControllerLayoutGuide type="bottom" id="MHG-B1-Upy"/>
+                        <viewControllerLayoutGuide type="top" id="Axw-yQ-yQZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="DpE-pd-7kj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="DRm-Id-lQK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -352,7 +362,7 @@ Payment</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Info" image="TABBARinfo.png" id="3O0-sH-CgE"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="TABBARinfo@2x.png" id="3O0-sH-CgE"/>
                     <connections>
                         <outlet property="activityIndicator" destination="nhJ-U5-Cj1" id="ILf-JK-IsU"/>
                         <outlet property="webView" destination="nLS-xC-QI9" id="LBD-c9-Io1"/>
@@ -387,12 +397,13 @@ Payment</string>
         </scene>
     </scenes>
     <resources>
-        <image name="TABBARcontact.png" width="52" height="50"/>
-        <image name="TABBARinfo.png" width="50" height="50"/>
-        <image name="TABBARmenus.png" width="47" height="50"/>
-        <image name="ToOrderToUse@2x.png" width="65" height="50"/>
+        <image name="TABBARcontact.png" width="26" height="25"/>
+        <image name="TABBARcontact@2x.png" width="65" height="50"/>
+        <image name="TABBARinfo@2x.png" width="65" height="50"/>
+        <image name="TABBARmenus@2x.png" width="65" height="50"/>
+        <image name="TABBARtoOrder@2x.png" width="65" height="50"/>
     </resources>
-    <color key="tintColor" white="0.50248061131386856" alpha="1" colorSpace="calibratedWhite"/>
+    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

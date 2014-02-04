@@ -13,14 +13,14 @@
 
 @interface ToOrderMenuViewController : UITableViewController 
 
--(id) initWithName:(NSString *) name andPoints: (BOOL)limit;
+-(id) initWithName:(NSString *) name andPoints: (double)limit;
 - (NSComparisonResult) sortWith: (NSDictionary *)dict1 and: (NSDictionary *)dict2;
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 -(void) addToCartWithDictionary:(NSDictionary*) newItem;
 -(void) presentCheckout;
--(void) updateTotalPrice:(double)cost cart:(NSMutableArray *)stuff;
+-(void) updateTotalPrice:(double)cost cart:(NSMutableArray *)stuff presentSelf:(BOOL) present;
 
 @end
 
