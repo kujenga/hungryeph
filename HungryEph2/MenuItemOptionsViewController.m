@@ -1,14 +1,14 @@
 //
-//  MealDealOptionsViewController.m
+//  MenuItemOptionsViewController.m
 //  HungryEph2
 //
 //  Created by Aaron Taylor on 9/27/13.
 //  Copyright (c) 2013 Williams College. All rights reserved.
 //
 
-#import "MealDealOptionsViewController.h"
+#import "MenuItemOptionsViewController.h"
 
-@interface MealDealOptionsViewController () {
+@interface MenuItemOptionsViewController () {
     NSDictionary * options;
     NSString * notes;
     //array of keys in the order that the options dictionary stores them, created for frequent use
@@ -21,13 +21,13 @@
 
 @end
 
-@implementation MealDealOptionsViewController
+@implementation MenuItemOptionsViewController
 
 - (id) initWithItems:(NSDictionary *)optionsIn andNotes:(NSString *)notesIn andSender:(id)sender
 {
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        NSLog(@"in MealDealOptionsViewController");
+        NSLog(@"in MenuItemOptionsViewController");
         options = optionsIn;
         orderedKeys = [options allKeys];
         notes = notesIn;

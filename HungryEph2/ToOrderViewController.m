@@ -23,7 +23,7 @@
     //determines equivalency amount
     double equivalency = 0;
     if ( (equivalencyControl.selectedSegmentIndex == 0) ) {
-        NSLog(@"is Equivalency");
+        //NSLog(@"is Equivalency");
         if (sender == etgrill) {
             equivalency = 8;
         } else {

@@ -1,5 +1,5 @@
 //
-//  MealDealOptionsViewController.h
+//  MenuItemOptionsViewController.h
 //  HungryEph2
 //
 //  Created by Aaron Taylor on 9/27/13.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ToOrderMenuViewController.h"
 
-@interface MealDealOptionsViewController : UITableViewController
+@interface MenuItemOptionsViewController : UITableViewController
 
 - (id) initWithItems:(NSDictionary *)optionsIn andNotes:(NSString *)notesIn andSender:(id)sender;
 

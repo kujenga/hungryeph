@@ -5,8 +5,9 @@
 	<array>
 		<string>Pizza</string>
 		<string>Toppings</string>
-		<string>Other Pizza Options </string>
-		<string>Entrees</string>
+		<string>Sauces and Crusts</string>
+		<string>Toasted Subs</string>
+		<string>Wings</string>
 		<string>Drinks</string>
 	</array>
 	<array>
@@ -14,7 +15,7 @@
 			<key>name</key>
 			<string>Personal</string>
 			<key>price</key>
-			<real>4</real>
+			<integer>5</integer>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -24,19 +25,61 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>BBQ Chicken</string>
+			<string>Spinach Carbanara Pizza</string>
 			<key>price</key>
 			<integer>8</integer>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Buffalo Chicken</string>
+			<string>BBQ Chicken Pizza</string>
 			<key>price</key>
 			<integer>8</integer>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>BLT</string>
+			<string>Buffalo Chicken Pizza</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Big Tomato Pizza</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BLT Pizza</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bruschetta Pizza</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hawaiian Hottie Pizza</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sesame Chicken Pizza</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Roasted Roman Pizza</string>
+			<key>price</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Greek Fisherman Pizza</string>
 			<key>price</key>
 			<integer>8</integer>
 		</dict>
@@ -223,6 +266,68 @@
 			<string>No Sauce</string>
 			<key>price</key>
 			<integer>0</integer>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>BLT Sub</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pepperoni Sub</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hot Ham &amp; Swiss Sub</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meatball Sub</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Classic Italian Sub</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sausage, Peppers &amp; Onion Sub</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Toasted Turkey</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Toasted Turkey Club</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Toasted Eggplant Parmesan Sub</string>
+			<key>price</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Southwest Black Bean</string>
+			<key>price</key>
+			<integer>7</integer>
 		</dict>
 	</array>
 	<array>

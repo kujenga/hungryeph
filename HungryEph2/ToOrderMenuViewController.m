@@ -12,7 +12,7 @@
 
 #import "ToOrderMenuViewController.h"
 #import "CheckoutViewController.h"
-#import "MealDealOptionsViewController.h"
+#import "MenuItemOptionsViewController.h"
 
 @interface ToOrderMenuViewController(){
 	double totalPrice;
@@ -206,20 +206,16 @@
             
         }
     }
-    else if ([self.location isEqualToString:@"LeeAfterDark"]) {
+    [self addToCartWithDictionary:item];
+    //checks to see if this item contains options, if so creates a MenuItemViewController
+    if( [item objectForKey:@"options"] != nil ) {
+        //creates and pushes a meal deal view controller
         NSDictionary *options = [item objectForKey:@"options"];
         NSString *notes = [item objectForKey:@"notes"];
-        [self addToCartWithDictionary:item];
-        if( options != nil ) {
-            //creates and pushes a meal deal view controller
-            MealDealOptionsViewController* mealDealController = [[MealDealOptionsViewController alloc] initWithItems:options andNotes:notes andSender:self];
-            mealDealController.view.frame = [UIScreen mainScreen].applicationFrame;
-            [self.navigationController pushViewController:mealDealController animated:YES];
-        }
-    } else {
-        [self addToCartWithDictionary:item];
+        MenuItemOptionsViewController* menuItemController = [[MenuItemOptionsViewController alloc] initWithItems:options andNotes:notes andSender:self];
+        menuItemController.view.frame = [UIScreen mainScreen].applicationFrame;
+        [self.navigationController pushViewController:menuItemController animated:YES];
     }
-    
     //this code separates the remaining menu items into two groups:
     //those still available and those that cannot be purchased and must be deleted from the menu
     NSArray *temp = [flexibleMenu copy];

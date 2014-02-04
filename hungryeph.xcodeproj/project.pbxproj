@@ -36,7 +36,7 @@
 		866655CB177A5D6B008DA6B1 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 866655CA177A5D6B008DA6B1 /* libxml2.dylib */; };
 		8674D92217FBBE4D00998DFC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8674D92117FBBE4D00998DFC /* MessageUI.framework */; };
 		86864E0417F607F500C74C8E /* LeeAfterDarkArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86864E0317F607F500C74C8E /* LeeAfterDarkArray.plist */; };
-		86864E0717F6152700C74C8E /* MealDealOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86864E0617F6152700C74C8E /* MealDealOptionsViewController.m */; };
+		86864E0717F6152700C74C8E /* MenuItemOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86864E0617F6152700C74C8E /* MenuItemOptionsViewController.m */; };
 		86864E1117F64BAE00C74C8E /* InfoTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86864E1017F64BAE00C74C8E /* InfoTabViewController.m */; };
 		86864E1417F655C700C74C8E /* ContactTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86864E1317F655C700C74C8E /* ContactTabViewController.m */; };
 		86B2F4CC17527D5400FE7B30 /* WebMenuScanOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B2F4CB17527D5400FE7B30 /* WebMenuScanOperation.m */; settings = {COMPILER_FLAGS = ""; }; };
@@ -108,8 +108,8 @@
 		866655CA177A5D6B008DA6B1 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		8674D92117FBBE4D00998DFC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		86864E0317F607F500C74C8E /* LeeAfterDarkArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LeeAfterDarkArray.plist; sourceTree = "<group>"; };
-		86864E0517F6152700C74C8E /* MealDealOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealDealOptionsViewController.h; sourceTree = "<group>"; };
-		86864E0617F6152700C74C8E /* MealDealOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealDealOptionsViewController.m; sourceTree = "<group>"; };
+		86864E0517F6152700C74C8E /* MenuItemOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemOptionsViewController.h; sourceTree = "<group>"; };
+		86864E0617F6152700C74C8E /* MenuItemOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemOptionsViewController.m; sourceTree = "<group>"; };
 		86864E0F17F64BAE00C74C8E /* InfoTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTabViewController.h; sourceTree = "<group>"; };
 		86864E1017F64BAE00C74C8E /* InfoTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTabViewController.m; sourceTree = "<group>"; };
 		86864E1217F655C700C74C8E /* ContactTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTabViewController.h; sourceTree = "<group>"; };
@@ -219,8 +219,8 @@
 				862D2FC31751A7160036FBE7 /* ToOrderViewController.m */,
 				862D2FF11751ACBB0036FBE7 /* ToOrderMenuViewController.h */,
 				862D2FF21751ACBB0036FBE7 /* ToOrderMenuViewController.m */,
-				86864E0517F6152700C74C8E /* MealDealOptionsViewController.h */,
-				86864E0617F6152700C74C8E /* MealDealOptionsViewController.m */,
+				86864E0517F6152700C74C8E /* MenuItemOptionsViewController.h */,
+				86864E0617F6152700C74C8E /* MenuItemOptionsViewController.m */,
 				862D2FF61751B28F0036FBE7 /* CheckoutViewController.h */,
 				862D2FF71751B28F0036FBE7 /* CheckoutViewController.m */,
 				862D2FFF1751C7AB0036FBE7 /* CheckoutView.xib */,
@@ -424,7 +424,7 @@
 				862D2FF51751B1D10036FBE7 /* ToOrderMenuViewController.m in Sources */,
 				86864E1417F655C700C74C8E /* ContactTabViewController.m in Sources */,
 				862D2FF81751B28F0036FBE7 /* CheckoutViewController.m in Sources */,
-				86864E0717F6152700C74C8E /* MealDealOptionsViewController.m in Sources */,
+				86864E0717F6152700C74C8E /* MenuItemOptionsViewController.m in Sources */,
 				86B2F4CC17527D5400FE7B30 /* WebMenuScanOperation.m in Sources */,
 				86F173CA1875232C00CFC0AA /* TempDailyMenusViewController.m in Sources */,
 				86B2F4CF1752882D00FE7B30 /* MenuForDayViewController.m in Sources */,
