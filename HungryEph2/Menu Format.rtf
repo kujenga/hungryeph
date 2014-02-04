@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Menu plist Structure as of 2/4/2014\
+\
+Root of the plist is an array.\
+All items within the plist are arrays.\
+The first array within the plist is a list of all the headers for the following arrays.\
+The order of the headers in this array matches with the order of the following arrays\
+\
+Within each array of menu items corresponding to the headers, there are an indeterminate number of menu items,\
+each of which is a dictionary containing at least two items.\
+for key:name put the name as a string\
+and for key:price put the price as a number\
+\
+To use the menuItemOptionsViewController, there are a few more fields to fill.\
+the name in price are in the dictionary as above.\
+key: options contains a dictionary that has keys representing header titles and the values representing specific options for that key\
+key: notes contains the information displayed under the main line item in the initial display\
+key: subtitle is currently unused, contains additional info\
+\
+\
+NOTES FOR FUTURE IMPROVEMENTS:\
+Initial array of headers is silly, the root structure should be a dictionary and the key for each entry is its header\
+this is more readable and easier to change.\
+Similarly, within the headers the options should be stored as a dictionary where the values are the names and the keys are the prices\
+again, this is more readable and easy to change.\
+\
+When daily menus are able to parsed from the netNutrition website, plist format may no longer make sense\
+worth looking into core data}

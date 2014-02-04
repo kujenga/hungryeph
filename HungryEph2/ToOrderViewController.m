@@ -64,7 +64,7 @@
     
     // Appropriately set button positions
     buttonSizes = @[whitmanHeight,ecoHeight,goodrichHeight,etHeight,leeHeight];
-    CGFloat buttonHeight = ([[UIScreen mainScreen] bounds].size.height - 59 - 64 - 75)/5;
+    CGFloat buttonHeight = ([[UIScreen mainScreen] bounds].size.height - 59 - 64 - 90)/5;
     for ( NSLayoutConstraint * height in buttonSizes ) {
         height.constant = buttonHeight;
     }

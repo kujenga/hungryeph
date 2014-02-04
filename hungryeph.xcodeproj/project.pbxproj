@@ -24,8 +24,8 @@
 		862D2FF81751B28F0036FBE7 /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862D2FF71751B28F0036FBE7 /* CheckoutViewController.m */; settings = {COMPILER_FLAGS = ""; }; };
 		862D2FFC1751C4ED0036FBE7 /* EcoCafeArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 862D2FF91751C4ED0036FBE7 /* EcoCafeArray.plist */; };
 		862D2FFD1751C4ED0036FBE7 /* GoodrichArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 862D2FFA1751C4ED0036FBE7 /* GoodrichArray.plist */; };
-		862D2FFE1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist in Resources */ = {isa = PBXBuildFile; fileRef = 862D2FFB1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist */; };
 		862D30001751C7AB0036FBE7 /* CheckoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862D2FFF1751C7AB0036FBE7 /* CheckoutView.xib */; };
+		8642E4F818A0B4B20056211C /* Menu Format.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8642E4F718A0B4B20056211C /* Menu Format.rtf */; };
 		864CC491189C42A9005C4AE0 /* TABBARcontact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864CC48D189C42A9005C4AE0 /* TABBARcontact@2x.png */; };
 		864CC492189C42A9005C4AE0 /* TABBARinfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864CC48E189C42A9005C4AE0 /* TABBARinfo@2x.png */; };
 		864CC493189C42A9005C4AE0 /* TABBARmenus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864CC48F189C42A9005C4AE0 /* TABBARmenus@2x.png */; };
@@ -93,8 +93,8 @@
 		862D2FF71751B28F0036FBE7 /* CheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutViewController.m; sourceTree = "<group>"; };
 		862D2FF91751C4ED0036FBE7 /* EcoCafeArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EcoCafeArray.plist; sourceTree = "<group>"; };
 		862D2FFA1751C4ED0036FBE7 /* GoodrichArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodrichArray.plist; sourceTree = "<group>"; };
-		862D2FFB1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LeeAfterDarkArray_old.plist; sourceTree = "<group>"; };
 		862D2FFF1751C7AB0036FBE7 /* CheckoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckoutView.xib; sourceTree = "<group>"; };
+		8642E4F718A0B4B20056211C /* Menu Format.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Menu Format.rtf"; sourceTree = "<group>"; };
 		864CC48D189C42A9005C4AE0 /* TABBARcontact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TABBARcontact@2x.png"; path = "../../Images/TABBARcontact@2x.png"; sourceTree = "<group>"; };
 		864CC48E189C42A9005C4AE0 /* TABBARinfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TABBARinfo@2x.png"; path = "../../Images/TABBARinfo@2x.png"; sourceTree = "<group>"; };
 		864CC48F189C42A9005C4AE0 /* TABBARmenus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TABBARmenus@2x.png"; path = "../../Images/TABBARmenus@2x.png"; sourceTree = "<group>"; };
@@ -173,9 +173,9 @@
 				862D2FF31751AD640036FBE7 /* WhitmansArray.plist */,
 				862D2FF91751C4ED0036FBE7 /* EcoCafeArray.plist */,
 				862D2FFA1751C4ED0036FBE7 /* GoodrichArray.plist */,
-				862D2FFB1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist */,
 				86864E0317F607F500C74C8E /* LeeAfterDarkArray.plist */,
 				38AE06241768BD4D008EA3C9 /* 82GrillArray.plist */,
+				8642E4F718A0B4B20056211C /* Menu Format.rtf */,
 			);
 			name = Menus;
 			sourceTree = "<group>";
@@ -385,6 +385,7 @@
 				86E4535F187A0C950027C81E /* EcoCafe.jpg in Resources */,
 				86D8007B1880E63C00E7B1B2 /* Icon_80.png in Resources */,
 				864CC493189C42A9005C4AE0 /* TABBARmenus@2x.png in Resources */,
+				8642E4F818A0B4B20056211C /* Menu Format.rtf in Resources */,
 				864CC492189C42A9005C4AE0 /* TABBARinfo@2x.png in Resources */,
 				86E45364187A0C950027C81E /* LeeSnackBar2.jpg in Resources */,
 				86E4535E187A0C950027C81E /* Driscoll2.jpg in Resources */,
@@ -401,7 +402,6 @@
 				86E45361187A0C950027C81E /* Goodrich.jpg in Resources */,
 				86E4535D187A0C950027C81E /* Driscoll.jpg in Resources */,
 				862D2FFD1751C4ED0036FBE7 /* GoodrichArray.plist in Resources */,
-				862D2FFE1751C4ED0036FBE7 /* LeeAfterDarkArray_old.plist in Resources */,
 				864CC494189C42A9005C4AE0 /* TABBARtoOrder@2x.png in Resources */,
 				862D30001751C7AB0036FBE7 /* CheckoutView.xib in Resources */,
 				38AE06251768BD4D008EA3C9 /* 82GrillArray.plist in Resources */,

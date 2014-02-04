@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="height" constant="75" id="GNy-3G-Tzt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
-                                <state key="normal" title="Whitmans">
+                                <state key="normal" title="Whitman's">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -59,7 +59,7 @@
                                     <constraint firstAttribute="height" constant="75" id="nKw-c3-2ym"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="24"/>
-                                <state key="normal" title="82 Grill">
+                                <state key="normal" title="82' Grill">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -310,10 +310,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCw-Gv-QuM">
-                                <rect key="frame" x="54" y="367" width="212" height="52"/>
+                                <rect key="frame" x="0.0" y="370" width="320" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="tap here to email us">
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Send us an email!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
