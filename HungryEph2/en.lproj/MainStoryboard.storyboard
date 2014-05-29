@@ -163,28 +163,6 @@
             </objects>
             <point key="canvasLocation" x="665" y="-561"/>
         </scene>
-        <!--Web App View Controller-->
-        <scene sceneID="Ljj-j0-def">
-            <objects>
-                <viewController id="9X4-sh-kRw" customClass="CBORDWebAppViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kY4-1b-zSl"/>
-                        <viewControllerLayoutGuide type="bottom" id="738-1S-jG7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QeD-Yh-JrJ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="fgr-is-Kfg"/>
-                    <connections>
-                        <outlet property="webView" destination="rKf-7m-pE2" id="YHm-vv-xwg"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7As-bC-XL2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1502" y="208"/>
-        </scene>
         <!--Daily Menus View Controller-->
         <scene sceneID="QOI-wB-nlI">
             <objects>
@@ -237,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3a-13-cri" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1910" y="208"/>
+            <point key="canvasLocation" x="1358" y="152"/>
         </scene>
         <!--Temp Daily Menus View Controller - Daily Menus-->
         <scene sceneID="rsp-nt-HQn">

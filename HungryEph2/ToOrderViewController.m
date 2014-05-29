@@ -33,15 +33,15 @@
     //determines sender
     NSString *name = @"";
     if (sender == whitmans) {
-        name = @"WhitmansArray";
+        name = @"Whitmans";
     } else if (sender == eco) {
-        name = @"EcoCafeArray";
+        name = @"EcoCafe";
     } else if (sender == goodrich) {
-        name = @"GoodrichArray";
+        name = @"Goodrich";
     } else if (sender == lee) {
-        name = @"LeeAfterDarkArray";
+        name = @"LeeAfterDark";
     } else if (sender == etgrill) {
-        name = @"82GrillArray";
+        name = @"82Grill";
     }
     
     //pushes to the menu controller
@@ -70,12 +70,12 @@
     }
     
     // the array for the uiimageview background
-    NSArray* backgroundImages = @[[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"82Grill2" ofType:@"jpg"]],
-                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Driscoll2" ofType:@"jpg"]],
-                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"EcoCafe2" ofType:@"jpg"]],
-                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Goodrich2" ofType:@"jpg"]],
-                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LeeSnackBar2" ofType:@"jpg"]],
-                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Whitmans2" ofType:@"jpg"]]];
+    NSArray* backgroundImages = @[[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"82Grill" ofType:@"png"]],
+                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Driscoll" ofType:@"png"]],
+                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"EcoCafe" ofType:@"png"]],
+                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Goodrich" ofType:@"png"]],
+                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LeeSnackBar" ofType:@"png"]],
+                                  [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Whitmans" ofType:@"png"]]];
     
     background.animationImages = backgroundImages;
     //background.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Whitmans2" ofType:@"jpg"]];
